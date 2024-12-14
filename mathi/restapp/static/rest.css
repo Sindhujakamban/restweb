@@ -1,0 +1,53 @@
+
+.tag
+{ 
+    position: absolute;
+    top:40px;
+    left: 700px;
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: 400;
+    color: orange;
+    text-transform: capitalize;
+    font-size: 40px;
+    
+}
+#order
+{
+    position: absolute;
+    top:50px;
+    left: 540px;
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: 400;
+    font-size: 30px;
+}
+#contact
+{
+    position: absolute;
+    top:50px;
+    left: 800px;
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: 400;
+    font-size: 30px; 
+}
+#offers
+{
+    position: absolute;
+    top:50px;
+    left: 1000px;
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: 400;
+    font-size: 30px;   
+}
+
+.copywrite
+{
+    background-color: rgb(255, 115, 0);
+    color:black;
+    font-size: large;
+}
+
+

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant - Menu</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            background-color: #f4f4f4; 
+        }
+        header { 
+            background-color: #333; 
+            color: white; 
+            padding: 20px; 
+            text-align: center; 
+        }
+        h1 { margin: 0; }
+        nav { 
+            text-align: center; 
+            background-color: #444; 
+            padding: 10px 0; 
+        }
+        nav a { 
+            color: white; 
+            padding: 10px 20px; 
+            text-decoration: none; 
+            margin: 0 10px; 
+        }
+        nav a:hover { 
+            background-color: #333; 
+        }
+        .menu-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        .menu-item {
+            background-color: white;
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+            border: 1px solid #ddd;
+            width: 250px; /* Fixed width for uniformity */
+            height: auto;
+        }
+        .menu-item img {
+            width: 100%; /* Ensure images take the full width of the box */
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 8px; /* Optional: Add rounded corners to images */
+        }
+        footer { 
+            background-color: #333; 
+            color: white; 
+            padding: 10px; 
+            text-align: center; 
+        }
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            .menu-item {
+                width: 100%; /* Full width for smaller screens */
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Our Menu</h1>
+    </header>
+   
+    <div class="menu-container">
+        <div class="menu-item">
+            <img src="chapp.jpg" alt="Chappathi">
+            <h3>Chappathi</h3>
+            <p>Healthy food</p>
+            <p>$12</p>
+        </div>
+
+        <div class="menu-item">
+            <img src="noo.jpg" alt="Noodles">
+            <h3>Noodles</h3>
+            <p>$15</p>
+        </div>
+
+        <div class="menu-item">
+            <img src="pane.jpg" alt="Paneer">
+            <h3>Paneer</h3>
+            <p>$10</p>
+        </div>
+
+        <div class="menu-item">
+            <img src="paro.jpg" alt="Parotta">
+            <h3>Parotta</h3>
+            <p>$10</p>
+        </div>
+
+        <div class="menu-item">
+            <img src="rice.jpg" alt="Rice">
+            <h3>Rice</h3>
+            <p>$10</p>
+        </div>
+
+        <div class="menu-item">
+            <img src="sam.jpg" alt="Samosa">
+            <h3>Samosa</h3>
+            <p>$8</p>
+        </div>
+
+        <div class="menu-item">
+            <img src="ros.jpg" alt="Rosemilk">
+            <h3>Rosemilk</h3>
+            <p>$5</p>
+        </div>
+
+        <div class="menu-item">
+            <img src="ice.jpg" alt="Ice Cream">
+            <h3>Ice Cream</h3>
+            <p>$3</p>
+        </div>
+
+        <div class="menu-item">
+            <img src="sha.jpg" alt="Shawarma">
+            <h3>Shawarma</h3>
+            <p>$5</p>
+        </div>
+
+        <div class="menu-item">
+            <img src="vegi.jpg" alt="Vegi Rice">
+            <h3>Vegi Rice</h3>
+            <p>$6</p>
+        </div>
+
+        <div class="menu-item">
+            <img src="fry.jpg" alt="Fried Rice">
+            <h3>Fried Rice</h3>
+            <p>$5</p>
+        </div>
+
+        <div class="menu-item">
+            <img src="alu.jpg" alt="Aalu Parotta">
+            <h3>Aalu Parotta</h3>
+            <p>$8</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Restaurant Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
